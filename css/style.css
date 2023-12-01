@@ -575,7 +575,7 @@ span {
 .contact-container .contact-box {
     flex: 1 1 30rem;
     background: var(--bg-color);
-    padding: 3rem 2rem 55rem;
+    padding: 3rem 2rem 3rem;
     border-radius: 2rem;
     box-shadow: 0 .1rem .5rem var(--shadow-color);
     text-align: center;
@@ -587,6 +587,13 @@ span {
 .contact-box i {
     font-size: 7rem;
     color: var(--main-color);
+}
+
+.Gmail iframe {
+    position:static;
+    height: 400px;
+    width: 500px;
+    right: 545px;
 }
 
 .contact-box h3 {
